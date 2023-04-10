@@ -9,8 +9,6 @@ using Microsoft.Owin.Security.Notifications;
 using System;
 using System.Threading.Tasks;
 
-[assembly: OwinStartup(typeof(Akd2gProductionMode.Startup))]
-
 namespace Akd2gProductionMode
 {
     public class Startup

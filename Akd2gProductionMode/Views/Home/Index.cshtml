@@ -33,7 +33,7 @@
     {
         <span><br />Hello @System.Security.Claims.ClaimsPrincipal.Current.FindFirst("name").Value;</span>
         <br /><br />
-        @Html.ActionLink("See Your Claims", "Index", "Claims")
+        @Html.ActionLink("Get Production Mode Key", "Index", "GetKey")
         <br /><br />
         @Html.ActionLink("Sign out", "SignOut", "Home")
     }
